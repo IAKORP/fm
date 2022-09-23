@@ -9,7 +9,7 @@ const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
 const lookup = {}
-const engine = "duckduckgo"
+const engine = "brave"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/",
   duckduckgo: "https://duckduckgo.com/?q=",
@@ -17,6 +17,7 @@ const engineUrls = {
   google: "https://www.google.com/search?q=",
   startpage: "https://www.startpage.com/search?q=",
   youtube: "https://www.youtube.com/results?q=",
+  brave: "https://search.brave.com/search?q="
 }
 
 const isWebUrl = value => {
